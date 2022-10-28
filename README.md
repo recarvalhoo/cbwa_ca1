@@ -36,3 +36,7 @@ If you need to configure the server in a different way, you can override the `CM
 dockerfile
 
 CMD ["/busybox", "httpd", "-f", "-v", "-p", "8080", "-c", "httpd.conf"]
+
+### Referencing code used from someone else
+
+Read the [source code comments](https://github.com/lipanski/docker-static-website).
